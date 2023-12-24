@@ -1,0 +1,111 @@
+body,h1,h2,h3,p,ul {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background: #2E5984;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero {
+    text-align: center;
+    /* padding: 100px 0; */
+}
+
+.features {
+    background: #4C9A2A;
+    padding: 50px 0;
+}
+
+.features .feature-item {
+    margin-bottom: 20px;
+}
+
+.about {
+    background: #68BB59;
+    padding: 50px 0;
+}
+
+.services {
+    background: #ACDF87;
+    padding: 50px 0;
+}
+
+footer {
+    background: #528AAE;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.container_img{
+    position: relative;
+    float: center;
+    margin-right: 0px;
+}
+
+.container_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 15px;
+    margin-right: 600px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.container_img:hover{
+    cursor: pointer;
+}
+
+.container_img:hover div{
+    /* width: 150px; */
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7; 
+}
+
+.feature-item{
+    display: none;
+}
+
+.clcik_1{
+    display: block;
+}
+
+.clcik_2{
+    display: none;
+}
